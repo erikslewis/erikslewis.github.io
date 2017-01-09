@@ -1,5 +1,6 @@
 body{
   background-color: black;
+
 }
 
 h1{
@@ -11,4 +12,10 @@ h2{
 
 a{
   color: red;
+
+}
+
+.link{
+  height:200px;
+  width: 200px;
 }
