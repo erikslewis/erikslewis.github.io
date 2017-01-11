@@ -187,7 +187,7 @@ div.Fly {
     background-color: red;
     position: relative;
     -webkit-animation: myfirst 5s linear 8s infinite alternate; /* Safari 4.0 - 8.0 */
-    animation: myfirst 5s linear 6s infinite alternate;
+    animation: myfirst 5s cubic-bezier(1, -0.17, 0, 1.44) 6s infinite alternate;
 
 }
 
