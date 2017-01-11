@@ -42,14 +42,14 @@ text-shadow: -4px 0 2px black, 0 4px 2px black, 4px 0 2px black, 0 -2px 2px blac
 font-weight: bolder;
 }
 body{
-
-
-background-image: url('https://www.vuetelitalia.it/wp-content/uploads/2015/07/Fotolia_17589253_M-495x304.jpg');
+background-image: url('https://media.giphy.com/media/AcodMql7BWi7C/giphy.gif');
 background-position: center;
 background-size: cover;
 background-attachment: fixed;
 
 }
+
+
 
 
 .dropbtn {
@@ -188,6 +188,7 @@ div.Fly {
     position: relative;
     -webkit-animation: myfirst 5s linear 8s infinite alternate; /* Safari 4.0 - 8.0 */
     animation: myfirst 5s linear 6s infinite alternate;
+
 }
 
 /* Safari 4.0 - 8.0 */
@@ -212,5 +213,7 @@ img.Fly{
   width: 90px;
   height: 60px;
   border-radius:  408px;
+
+
 
 }
