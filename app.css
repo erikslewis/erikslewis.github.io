@@ -4,22 +4,208 @@ body{
 }
 
 h1{
-  color: blue;
+  color: black;
+  text-align: center;
 }
 h2{
   color: red;
 }
 
 a{
-  color: red;
+  color: blue;
 
 }
 
-.link{
-  height:200px;
-  width: 200px;
+h5.Fit{
+  color: green;
 }
+
+h5.man{
+  color: yellow;
+}
+
 img{
   height:200px;
   width: 300px;
+}
+
+h4{
+  color: black;
+}
+h3{
+  color: black;
+  text-align: center;
+}
+body{
+
+
+background-image: url('https://www.vuetelitalia.it/wp-content/uploads/2015/07/Fotolia_17589253_M-495x304.jpg');
+background-position: center;
+background-size: cover;
+background-attachment: fixed;
+
+}
+
+
+.dropbtn {
+    background-color: black;
+    color: white;
+    padding: 16px;
+    font-size: 36px;
+    border: 12px solid silver;
+    cursor: pointer;
+    width: 363px;
+    cursor:pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    color: blue;
+
+}
+
+.dropdown-content a {
+    color: blue;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font-size: 28px;
+    width: 325px;
+    border: 3px solid silver;
+}
+
+.dropdown-content a:hover {background-color: silver;}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: silver;
+    border: 10px solid black;
+}
+
+
+.skills{
+   text-align: center;
+  display: inline-block;
+
+  position: relative;
+  margin: auto;
+
+}
+ul.tab {
+    list-style-type: none;
+    margin: auto auto;
+    overflow: hidden;
+    border: 10px solid blue;
+    background-color: black;
+    text-align: center;
+    display: block;
+    position: relative;
+
+}
+
+/* Float the list items side by side */
+ul.tab li {display: inline-block;
+margin: auto;
+text-align: center;
+}
+
+/* Style the links inside the list items */
+ul.tab li a {
+    display: inline-block;
+    color: blue;
+    text-align: center;
+    padding: 1px 1px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 27px;
+    border: 10px double silver;
+    font-weight: bolder;
+    margin: auto;
+}
+
+/* Change background color of links on hover */
+ul.tab li a:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+ul.tab li a:focus, .active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+   -webkit-animation: fadeEffect 1s;
+    animation: fadeEffect 1s;
+    margin: auto;
+    text-align: center;
+}
+
+@-webkit-keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+#myContainer {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  background:
+}
+#myAnimation {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  background-color: red;
+}
+
+div.Fly {
+    width: 0px;
+    height: 0px;
+    background-color: red;
+    position: relative;
+    -webkit-animation: myfirst 5s linear 8s infinite alternate; /* Safari 4.0 - 8.0 */
+    animation: myfirst 5s linear 6s infinite alternate;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes myfirst {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+}
+
+/* Standard syntax */
+@keyframes myfirst {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:880px; top:200px;}
+    50%  {background-color:blue; left:200px; top:380px;}
+    75%  {background-color:orange; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:-200px;}
+}
+
+img.Fly{
+  width: 90px;
+  height: 60px;
+  border-radius:  408px;
+
 }
