@@ -42,7 +42,7 @@ text-shadow: -4px 0 2px black, 0 4px 2px black, 4px 0 2px black, 0 -2px 2px blac
 font-weight: bolder;
 }
 body{
-background-image: url('images/giphyggg.gif');
+background-image: url('https://media.giphy.com/media/AcodMql7BWi7C/giphy.gif');
 background-position: center;
 background-size: cover;
 background-attachment: fixed;
