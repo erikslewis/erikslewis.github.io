@@ -8,6 +8,8 @@ h1{
   text-align: center;
 text-shadow: -4px 0 2px silver, 0 4px 2px silver, 4px 0 2px silver, 0 -2px 2px silver ;
 font-weight: bolder;
+font-size: 36px;
+font-family:monospace;
 }
 
 h2{
@@ -37,9 +39,11 @@ h4{
 }
 h3{
   color: blue;
+  font-size: 29px;
 text-align: center;
 text-shadow: -4px 0 2px silver, 0 4px 2px silver, 4px 0 2px silver, 0 -2px 2px silver ;
 font-weight: bolder;
+font-family:monospace;
 }
 body{
 background-image: url('https://media.giphy.com/media/AcodMql7BWi7C/giphy.gif');
@@ -222,6 +226,7 @@ img.Fly{
 footer{
   display: block;
   text-align: center;
+  margin-top: 838px;
 
 
 }
