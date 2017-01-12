@@ -6,7 +6,7 @@ body{
 h1{
   color: blue;
   text-align: center;
-text-shadow: -4px 0 2px black, 0 4px 2px black, 4px 0 2px black, 0 -2px 2px black ;
+text-shadow: -4px 0 2px silver, 0 4px 2px silver, 4px 0 2px silver, 0 -2px 2px silver ;
 font-weight: bolder;
 }
 
@@ -28,8 +28,8 @@ h5.man{
 }
 
 img{
-  height:200px;
-  width: 300px;
+  height:100px;
+  width: 100px;
 }
 
 h4{
@@ -38,7 +38,7 @@ h4{
 h3{
   color: blue;
 text-align: center;
-text-shadow: -4px 0 2px black, 0 4px 2px black, 4px 0 2px black, 0 -2px 2px black ;
+text-shadow: -4px 0 2px silver, 0 4px 2px silver, 4px 0 2px silver, 0 -2px 2px silver ;
 font-weight: bolder;
 }
 body{
@@ -46,6 +46,7 @@ background-image: url('https://media.giphy.com/media/AcodMql7BWi7C/giphy.gif');
 background-position: center;
 background-size: cover;
 background-attachment: fixed;
+
 
 }
 
@@ -143,6 +144,7 @@ ul.tab li a {
 /* Change background color of links on hover */
 ul.tab li a:hover {
     background-color: #ddd;
+
 }
 
 /* Create an active/current tablink class */
@@ -195,7 +197,7 @@ div.Fly {
 @-webkit-keyframes myfirst {
     0%   {background-color:red; left:0px; top:0px;}
     25%  {background-color:yellow; left:200px; top:0px;}
-    50%  {background-color:blue; left:2200px; top:200px;}
+    50%  {background-color:blue; left:300px; top:200px;}
     75%  {background-color:green; left:0px; top:200px;}
     100% {background-color:red; left:0px; top:0px;}
 }
@@ -203,7 +205,7 @@ div.Fly {
 /* Standard syntax */
 @keyframes myfirst {
     0%   {background-color:red; left:0px; top:0px;}
-    25%  {background-color:yellow; left:880px; top:200px;}
+    25%  {background-color:yellow; left:840px; top:200px;}
     50%  {background-color:blue; left:200px; top:380px;}
     75%  {background-color:orange; left:0px; top:200px;}
     100% {background-color:red; left:0px; top:-200px;}
@@ -216,6 +218,22 @@ img.Fly{
   height: 60px;
   border-radius:  408px;
 
+}
+footer{
+  display: block;
+  text-align: center;
 
+
+}
+
+img.git{
+  width: 85px;
+  height: 93px;
+}
+
+img.sat{
+  text-align: right;
+
+  margin-left: 700px;
 
 }
