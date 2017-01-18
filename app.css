@@ -15,7 +15,12 @@ font-family:monospace;
 }
 
 h2{
-  color: red;
+  color: blue;
+  font-size: 25px;
+text-align: center;
+text-shadow: -4px 0 2px silver, 0 4px 2px silver, 4px 0 2px silver, 0 -2px 2px silver ;
+font-weight: bolder;
+font-family:monospace;
 }
 
 a{
@@ -241,11 +246,12 @@ img.git{
 img.sat{
   text-align: right;
   position: relative;
-  margin-left: 830px;
+  margin-right: 109px;
+
 }
 #myContainer {
 
-  position: relative;
+  position: relative;;
   text-align: right;
 margin-left: 89%;
 
@@ -256,11 +262,12 @@ margin-left: 89%;
 
   border-radius: 10px;
 
-
-
 }
+
+@media (max-width: 600px) {
+}
+
 button.sat{
-  color: red;
   background-color: #4CAF50;
   color: white;
   display: block;
@@ -271,14 +278,16 @@ button.sat{
   border: 19px;
   font-size: 28px;
   color: #FFFFFF;
-  padding: 20px;
-  width: 100px;
+  padding: 5px;
+  width: 59px;
   text-decoration:none;
   overflow: hidden;
   cursor: crosshair;
-  margin-bottom: 33px;
   box-sizing:content-box;
   border-color: silver;
   border-style: groove;
   float: right;
+  border-radius: 65px;
+  height: 40px;
+
 }
