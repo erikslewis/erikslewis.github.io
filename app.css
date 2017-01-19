@@ -222,18 +222,18 @@ div.Fly {
 
 /* Standard syntax */
 @keyframes myfirst {
-    0%   {background-color:red; left:0px; top:0px;}
-    25%  {background-color:yellow; left:880px; top:200px;}
+    0%   {background-color:red; left:0px; top:600px;}
+    25%  {background-color:yellow; left:880px; top:380px;}
     50%  {background-color:blue; left:200px; top:380px;}
-    75%  {background-color:orange; left:0px; top:200px;}
+    75%  {background-color:orange; left:0px; top:-200px;}
     100% {background-color:red; left:0px; top:-200px;}
 }
 
 img.Fly{
   zoom: 42%;
 
-  width: 90px;
-  height: 60px;
+  width: 270px;
+  height: 240px;
   border-radius:  408px;
 
 }
@@ -297,4 +297,9 @@ button.sat{
   border-radius: 65px;
   height: 40px;
 
+}
+
+img.logo{
+  width: 170px;
+  height: 150px;
 }
