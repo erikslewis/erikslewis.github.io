@@ -62,8 +62,6 @@ background-attachment: fixed;
 }
 
 
-
-
 .dropbtn {
     background-color: transparent;
 
@@ -147,6 +145,10 @@ text-align: center;
 .dropdown:hover .dropbtn {
     background-color: transparent;
 
+}
+img.war{
+width: 110px;
+height: 90px;
 }
 
 .skills{
@@ -307,27 +309,9 @@ margin-left: 89%;
 }
 
 button.sat{
-  background-color: #4CAF50;
-  color: white;
-  display: block;
-  margin: auto;
-  text-align: center;
-  position:absolute;
-  background-color: black;
-  border: 19px;
-  font-size: 28px;
-  color: #FFFFFF;
-  padding: 5px;
-  width: 59px;
-  text-decoration:none;
-  overflow: hidden;
-  cursor: crosshair;
-  box-sizing:content-box;
-  border-color: silver;
-  border-style: groove;
-  float: right;
-  border-radius: 65px;
-  height: 40px;
+background-color: transparent;
+border: none;
+margin-right: 96px;
 
 }
 
