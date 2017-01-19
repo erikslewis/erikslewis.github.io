@@ -66,16 +66,46 @@ background-attachment: fixed;
 
 .dropbtn {
     background-color: transparent;
-    padding: 16px;
-    font-size: 36px;
-    border: 12px solid silver;
+
+    font-size: 46px;
+    border-color: transparent;
     cursor: pointer;
     width: 363px;
     color: blue;
   text-shadow: -4px 0 2px silver, 0 4px 2px silver, 4px 0 2px silver, 0 -2px 2px silver ;
   font-family:monospace;
   font-weight: bolder;
+	position: relative;
+text-align: center;
+    font-weight: 700;
+    font-size: 3em;
+    display: inline-block;
+    padding: 4px;
+    -webkit-border-radius: 18px;
+    -moz-border-radius: 18px;
+    border-radius: 18px;
+    -webkit-box-shadow: 0px 9px 0px blue, 0px 9px 25px blue;
+    -moz-box-shadow: 0px 9px 0px blue, 0px 9px 25px blue;
+    box-shadow: 0px 9px 0px blue, 0px 9px 25px blue;
+    margin:  0 auto;
+	width: 210px;
+	text-align: center;
+
+	-webkit-transition: all .1s ease;
+	-moz-transition: all .1s ease;
+	-ms-transition: all .1s ease;
+	-o-transition: all .1s ease;
+	transition: all .1s ease;
 }
+
+.dropbtn:active {
+    -webkit-box-shadow: 0px 3px 0px blue, 0px 3px 6px blue;
+    -moz-box-shadow: 0px 3px 0px blue, 0px 3px 6px blue;
+    box-shadow: 0px 3px 0px blue, 0px 3px 6px blue;
+    position: relative;
+    top: 6px;
+}
+
 
 .dropdown {
     position: relative;
@@ -86,7 +116,7 @@ background-attachment: fixed;
     display: none;
     position: absolute;
     background-color: transparent;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
     color: blue;
   text-shadow: -4px 0 2px silver, 0 4px 2px silver, 4px 0 2px silver, 0 -2px 2px silver ;
   font-family:monospace;
@@ -98,22 +128,25 @@ background-attachment: fixed;
     color: blue;
     padding: 12px 16px;
     text-decoration: none;
-    display: block;
+    display: inline-block;
     text-align: center;
     font-size: 28px;
     width: 320px;
-    border: 3px solid silver;
+
 }
 
 .dropdown-content a:hover {background-color: silver;}
 
 .dropdown:hover .dropdown-content {
     display: block;
+    text-align: center;
+    margin: auto;
+    position: relative;
 }
 
 .dropdown:hover .dropbtn {
-    background-color: silver;
-    border: 10px solid black;
+    background-color: transparent;
+
 }
 
 
@@ -131,7 +164,7 @@ ul.tab {
     overflow: hidden;
     background-color: transparent;
     text-align: center;
-    display: block;
+    display: inline-block;
     position: relative;
 
 }
