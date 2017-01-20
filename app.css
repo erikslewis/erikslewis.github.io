@@ -1,16 +1,9 @@
-body{
-  background-color: black;
-  text-align: center;
-  justify-content: center;
-
-}
-
 h1{
   color: blue;
   text-align: center;
 text-shadow: -4px 0 2px silver, 0 4px 2px silver, 4px 0 2px silver, 0 -2px 2px silver ;
 font-weight: bolder;
-font-size: 36px;
+font-size: 40px;
 font-family:monospace;
 }
 
@@ -46,7 +39,7 @@ h4{
 }
 h3{
   color: blue;
-  font-size: 29px;
+  font-size: 37px;
 text-align: center;
 text-shadow: -4px 0 2px silver, 0 4px 2px silver, 4px 0 2px silver, 0 -2px 2px silver ;
 font-weight: bolder;
@@ -57,18 +50,21 @@ background-image: url('https://media.giphy.com/media/AcodMql7BWi7C/giphy.gif');
 background-position: center;
 background-size: cover;
 background-attachment: fixed;
+background-color: black;
+margin: auto;
+text-align: center;
 
 
 }
 
 
 .dropbtn {
-    background-color: transparent;
+    background-color: silver;
 
-    font-size: 46px;
+    font-size: 66px;
     border-color: transparent;
     cursor: pointer;
-    width: 363px;
+    width: 400px;
     color: blue;
   text-shadow: -4px 0 2px silver, 0 4px 2px silver, 4px 0 2px silver, 0 -2px 2px silver ;
   font-family:monospace;
@@ -85,9 +81,6 @@ text-align: center;
     -webkit-box-shadow: 0px 9px 0px blue, 0px 9px 25px blue;
     -moz-box-shadow: 0px 9px 0px blue, 0px 9px 25px blue;
     box-shadow: 0px 9px 0px blue, 0px 9px 25px blue;
-    margin:  0 auto;
-	width: 210px;
-	text-align: center;
 
 	-webkit-transition: all .1s ease;
 	-moz-transition: all .1s ease;
@@ -145,6 +138,7 @@ text-align: center;
 .dropdown:hover .dropbtn {
     background-color: transparent;
 
+
 }
 img.war{
 width: 107px;
@@ -178,16 +172,17 @@ text-align: center;
 
 /* Style the links inside the list items */
 ul.tab li a {
-    display: inline-block;
+    display: block;
     color: blue;
     text-align: center;
-    padding: 1px 1px;
+
     text-decoration: none;
     transition: 0.3s;
-    font-size: 27px;
+    font-size: 40px;
     border: 10px double silver;
     font-weight: bolder;
     margin: auto;
+    position: relative;
     color: blue;
   text-shadow: -4px 0 2px silver, 0 4px 2px silver, 4px 0 2px silver, 0 -2px 2px silver ;
   font-family:monospace;
@@ -275,13 +270,15 @@ footer{
   display: block;
   text-align: center;
   margin-top: 838px;
-
-
 }
 
-img.git{
+img.github{
   width: 85px;
   height: 93px;
+}
+img.git{
+  width: 160px;
+  height: 190px;
 }
 
 img.sat{
@@ -289,6 +286,10 @@ img.sat{
   position: relative;
   margin-right: 109px;
 
+}
+img.html{
+  width:220px;
+  height: 220px;
 }
 #myContainer {
 
