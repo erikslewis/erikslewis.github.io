@@ -3,13 +3,13 @@ h1{
   text-align: center;
 text-shadow: -4px 0 2px silver, 0 4px 2px silver, 4px 0 2px silver, 0 -2px 2px silver ;
 font-weight: bolder;
-font-size: 40px;
+font-size: 55px;
 font-family:monospace;
 }
 
 h2{
   color: blue;
-  font-size: 25px;
+  font-size: 35px;
 text-align: center;
 text-shadow: -4px 0 2px silver, 0 4px 2px silver, 4px 0 2px silver, 0 -2px 2px silver ;
 font-weight: bolder;
@@ -29,9 +29,14 @@ h5.man{
   color: yellow;
 }
 
-img{
+img.img2{
   height:100px;
   width: 100px;
+}
+
+img{
+  height:280px;
+  width: 300px;
 }
 
 h4{
@@ -39,11 +44,13 @@ h4{
 }
 h3{
   color: blue;
-  font-size: 37px;
+  font-size: 47px;
 text-align: center;
 text-shadow: -4px 0 2px silver, 0 4px 2px silver, 4px 0 2px silver, 0 -2px 2px silver ;
 font-weight: bolder;
 font-family:monospace;
+position: relative;
+display: inline-block;
 }
 body{
 background-image: url('https://media.giphy.com/media/AcodMql7BWi7C/giphy.gif');
@@ -51,10 +58,13 @@ background-position: center;
 background-size: cover;
 background-attachment: fixed;
 background-color: black;
-margin: auto;
+margin: 0 auto;
 text-align: center;
 
 
+}
+html{
+  width: auto;
 }
 
 
@@ -97,7 +107,6 @@ text-align: center;
     top: 6px;
 }
 
-
 .dropdown {
     position: relative;
     display: inline-block;
@@ -121,9 +130,8 @@ text-align: center;
     text-decoration: none;
     display: inline-block;
     text-align: center;
-    font-size: 28px;
+    font-size: 38px;
     width: 320px;
-
 }
 
 .dropdown-content a:hover {background-color: silver;}
@@ -137,7 +145,6 @@ text-align: center;
 
 .dropdown:hover .dropbtn {
     background-color: transparent;
-
 
 }
 img.war{
@@ -178,7 +185,7 @@ ul.tab li a {
 
     text-decoration: none;
     transition: 0.3s;
-    font-size: 40px;
+    font-size: 70px;
     border: 10px double silver;
     font-weight: bolder;
     margin: auto;
@@ -293,13 +300,15 @@ img.html{
 }
 #myContainer {
 
-  position: relative;;
-  text-align: right;
-margin-left: 89%;
+  position: relative;
+  text-align: center;
+ margin: 0 auto;
+ padding-left: 73px;
+
 
 }
 #myAnimation {
-  background-color: black;
+  background-color: transparent;
   position: absolute;
 
   border-radius: 10px;
