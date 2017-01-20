@@ -4,22 +4,32 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="app.css">
     <script src="app.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <title></title>
   </head>
   <body>
 <div>
   <ul class="tab">
-    <h1>Welcome To InterGalactic<br> Web Development</h1>
-    <h3>By: Erik Shepard-Lewis <br>Exploration Controls</h3><br>
+    <h1 class="animated zoomInLeft">Welcome To InterGalactic<br> Web Development</h1>
+    <h3 class="animated fadeIn">By: Erik Shepard-Lewis <br>Exploration Controls</h3><br>
 
 
+    <div class="dropdown">
+      <div class="animated infinite pulse">
+    <button id="myton" class="animated zoomInDown" ><img class="img2" src="images/Down_Arrow_Download.png" class="dropbtn"></button><br>
+  </div>
+      <div id="myDropdown" class="dropdown-content">
+        <a href="#about" class="animated fadeInUp">Final GA Project<br><img class="img2" src="images/death-star-clipart-1.jpg"></a>
+        <a href="#contact"class="animated fadeInUp">Group Project<img class="img2" src="images/xx.gif"></a>
+          <a href="#home" class="animated fadeInUp">Small Projects<img class="img2" src="images/x-wing-dribbble.gif"></a>
+      </div>
+    </div><br>
 
-  <img class="img2" src="images/Down_Arrow_Download.png"><br>
-    <li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Projects')">PROJECTS</a></li>
-  <li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Skills')">ABILITIES</a></li><br>
-      <li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Resume')">Résumé</a></li>
-    <li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'About')">ABOUT ME</a></li>
-  <li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Contact')">CONTACT</a></li>
+    <li><a href="javascript:void(0)" class="animated zoomIn" class="tablinks" onclick="openCity(event, 'Projects')">PROJECTS</a></li>
+  <li><a href="javascript:void(0)" class="animated zoomIn"class="tablinks" onclick="openCity(event, 'Skills')">SKILLS</a></li>
+      <li><a href="javascript:void(0)" class="animated zoomIn"class="tablinks" onclick="openCity(event, 'Resume')">Résumé</a></li>
+    <li><a href="javascript:void(0)" class="animated zoomIn"class="tablinks" onclick="openCity(event, 'About')">About Me</a></li>
+  <li><a href="javascript:void(0)" class="animated zoomIn"class="tablinks" onclick="openCity(event, 'Contact')">CONTACT</a></li>
 
 
 
@@ -36,7 +46,9 @@
 
   <div class="skills">
  <div class="dropdown">
+  <div class="animated infinite pulse">
    <button class="dropbtn">Special Abilities</button>
+   </div>
    <div class="dropdown-content">
      <a><img class="html" src="images/HTML5_Logo_gray-225.png"></a>
      <a><img class="git" src="images/javascript-logo.png"></a>
@@ -57,19 +69,22 @@
      <a><img class="git" src="images/AJAX_logo_by_gengns.svg.png"></a>
      <a><img class="git" src="images/55124.png"></a>
      <a><img class="git" src="images/zzzzzz.png"></a>
-
    </div>
  </div>
 </div>
 </div>
 <div id="Resume" class="tabcontent">
-  <h3>Résumé</h3>
+  <h3>Résumé</h3><br>
+  <iframe src="https://resume.creddle.io/embed/c32s35c8got"
+  width="850" height="1100" seamless></iframe>
 </div>
 <div id="Projects" class="tabcontent">
 
 
   <div class="dropdown">
+    <div class="animated infinite pulse">
     <button class="dropbtn">Project Prototypes</button>
+  </div>
     <div class="dropdown-content">
       <a href="https://erikslewis.github.io/iron-man/"><img src="images/imageedit_7_5022970184.png"/><br>IRONMAN GAME</a>
       <a href="https://erikslewis.github.io/pixart_js/"><img src="images/sshot4ceba87fb2a60.jpg"/><br>PICASSO ART!</a>
@@ -93,11 +108,15 @@
 <div class="Fly">
   <img class="Fly" src="images/tumblr_mzpjx8VJTh1qcoscoo1_400.gif">
 </div>
-  <div id ="myContainer">
-      <button class="sat" onclick="myMove()"><img  class="img2" src="images/newbtn.png" alt=""></button><br>
+<div class="animated infinite pulse">
+  <div id ="myContainer" class="animated zoomInUp">
+      <button  class="sat" onclick="myMove()"><img  class="img2" src="images/newbtn.png" alt=""></button><br>
+      
 <div id ="myAnimation">
 <img class="Fly" src='images/giffire.gif'></div>
-  </div>
+</div>
+</div>
+
 <br>
 <br>
 <br>

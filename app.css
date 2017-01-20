@@ -61,10 +61,39 @@ background-color: black;
 margin: 0 auto;
 text-align: center;
 
-
 }
 html{
   width: auto;
+}
+h3.animated.fadeIn{
+ -webkit-animation-duration: 3s;
+ -webkit-animation-delay: 3s;
+
+}
+h1.animated.zoomInLeft{
+ -webkit-animation-duration: 2.5s;
+ -webkit-animation-delay: .2s;
+
+}
+.animated.zoomIn{
+ -webkit-animation-duration: 2s;
+ -webkit-animation-delay: 5s;
+
+}
+button.animated.fadeIn{
+ -webkit-animation-duration: 3s;
+ -webkit-animation-delay: 4s;
+
+}
+#myContainer.animated.zoomInUp{
+ -webkit-animation-duration: 3s;
+ -webkit-animation-delay: 5.5s;
+
+}
+.animated.zoomInDown{
+ -webkit-animation-duration: 3.5s;
+ -webkit-animation-delay: 3s;
+
 }
 
 
@@ -172,21 +201,22 @@ ul.tab {
 }
 
 /* Float the list items side by side */
-ul.tab li {display: inline-block;
-margin: auto;
+ul.tab li {display: block;
+margin: 0 auto;
 text-align: center;
+position: relative;
 }
 
 /* Style the links inside the list items */
 ul.tab li a {
-    display: block;
+    display:block;
     color: blue;
     text-align: center;
-
+    width: 400px;
     text-decoration: none;
     transition: 0.3s;
     font-size: 70px;
-    border: 10px double silver;
+    border: 10px double blue;
     font-weight: bolder;
     margin: auto;
     position: relative;
@@ -303,7 +333,7 @@ img.html{
   position: relative;
   text-align: center;
  margin: 0 auto;
- padding-left: 73px;
+ padding-left: 90px;
 
 
 }
@@ -313,6 +343,14 @@ img.html{
 
   border-radius: 10px;
 
+}
+
+#myton{
+  background: transparent;
+  border: none;
+  text-align: center;
+  margin: auto;
+  position: relative;
 }
 
 @media (max-width: 600px) {
