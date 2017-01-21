@@ -70,14 +70,14 @@ h3.animated.fadeIn{
  -webkit-animation-delay: 3s;
 
 }
-h1.animated.zoomInLeft{
- -webkit-animation-duration: 2.5s;
- -webkit-animation-delay: .2s;
+h1.animated.zoomInDown{
+ -webkit-animation-duration: 2s;
+ -webkit-animation-delay: 0s;
 
 }
 .animated.zoomIn{
- -webkit-animation-duration: 2s;
- -webkit-animation-delay: 5s;
+ -webkit-animation-duration: 3s;
+ -webkit-animation-delay: 5.5s;
 
 }
 button.animated.fadeIn{
@@ -85,9 +85,9 @@ button.animated.fadeIn{
  -webkit-animation-delay: 4s;
 
 }
-#myContainer.animated.zoomInUp{
+#myContainer.animated.rotateIn{
  -webkit-animation-duration: 3s;
- -webkit-animation-delay: 5.5s;
+ -webkit-animation-delay: 7s;
 
 }
 .animated.zoomInDown{
