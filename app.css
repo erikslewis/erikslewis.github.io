@@ -71,7 +71,7 @@ html{
 }
 h3.animated.fadeIn{
  -webkit-animation-duration: 3s;
- -webkit-animation-delay: 3s;
+ -webkit-animation-delay: 2s;
 
 }
 h1.animated.zoomInDown{
