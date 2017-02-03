@@ -33,10 +33,14 @@ img.img2{
   height:100px;
   width: 100px;
 }
+img.imgB{
+  height:200px;
+  width: 200px;
+}
 
 img{
   height:280px;
-  width: 300px;
+  width: 200px;
 }
 
 h4{
