@@ -400,7 +400,7 @@ img.logo{
 .tooltip .tooltiptext {
     visibility: hidden;
     width: 170px;
-    height: 150px;
+    height: 200px;
     font-size: 18px;
     background-color: #555;
     color: blue;
@@ -436,7 +436,7 @@ img.logo{
 .tooltip1 .tooltiptext1 {
     visibility: hidden;
     width: 170px;
-    height: 150px;
+    height: 200px;
     font-size: 18px;
     background-color: #555;
     color: blue;
