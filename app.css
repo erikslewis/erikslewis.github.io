@@ -517,7 +517,7 @@ img.logo{
 }
 
 .sidenav a {
-    padding: 8px 8px 8px 32px;
+    padding: 18px 18px 28px 32px;
     text-decoration: none;
     font-size: 60px;
     color: #818181;
@@ -531,10 +531,11 @@ img.logo{
 
 .sidenav .closebtn {
     position: absolute;
-    top: 0;
+    top: -19px;
     right: 25px;
     font-size: 66px;
     margin-left: 50px;
+
 }
 
 @media screen and (max-height: 450px) {
