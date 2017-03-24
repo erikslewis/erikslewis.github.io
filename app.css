@@ -532,7 +532,7 @@ img.logo{
 }
 
 .sidenav a:hover, .offcanvas a:focus{
-    color: #f1f1f1;
+    color: gray;
 }
 
 .sidenav .closebtn {
