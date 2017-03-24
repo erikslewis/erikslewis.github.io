@@ -520,7 +520,13 @@ img.logo{
     padding: 18px 18px 28px 32px;
     text-decoration: none;
     font-size: 60px;
-    color: #818181;
+    color: blue;
+    text-align: center;
+  text-shadow: -4px 0 2px silver, 0 4px 2px silver, 4px 0 2px silver, 0 -2px 2px silver ;
+  font-weight: bolder;
+  font-size: 55px;
+  font-family:monospace;
+  margin-bottom: -10px;
     display: block;
     transition: 0.3s
 }
