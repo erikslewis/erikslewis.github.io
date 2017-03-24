@@ -50,6 +50,10 @@ img.imgB{
   height:200px;
   width: 200px;
 }
+img.huge{
+  height:300px;
+  width: 300px;
+}
 
 img{
   height:280px;
@@ -220,7 +224,7 @@ ul.tab {
 }
 
 /* Float the list items side by side */
-ul.tab li {display: block;
+ul.tab li {display:table-cell;
 margin: 0 auto;
 text-align: center;
 position: relative;
@@ -262,6 +266,7 @@ ul.tab li a:focus, .active {
     animation: fadeEffect 1s;
     margin: auto;
     text-align: center;
+
 }
 
 @-webkit-keyframes fadeEffect {
@@ -494,4 +499,45 @@ img.logo{
 .tooltip2:hover .tooltiptext2 {
     visibility: visible;
     opacity: 1;
+}
+
+
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
 }
