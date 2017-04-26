@@ -112,7 +112,7 @@ button.animated.fadeIn{
 }
 #myContainer.animated.rotateIn{
  -webkit-animation-duration: 3s;
- -webkit-animation-delay: 7s;
+ -webkit-animation-delay: 5s;
 
 }
 .animated.zoomInDown{
