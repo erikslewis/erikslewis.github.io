@@ -358,8 +358,8 @@ img.html{
 #myContainer {
   position: relative;
   text-align: center;
- margin: 0 auto;
- padding-left: 90px;
+ margin: auto;
+ padding-left: 46px;
 
 }
 #myAnimation {
