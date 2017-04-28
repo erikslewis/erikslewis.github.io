@@ -21,16 +21,20 @@ a{
   color: blue;
 
 }
+div.javascripthtml5css3.tabcontent{
+  display: block;
+}
 .work{
 height:110px;
-width: 230px;
+width: 200px;
 background-color: transparent;
 
 }
 .work1{
 height:100px;
-width: 107px;
+width: 147px;
 background-color: transparent;
+
 
 }
 
@@ -51,8 +55,8 @@ img.imgB{
   width: 200px;
 }
 img.huge{
-  height:300px;
-  width: 300px;
+  height:200px;
+  width: 200px;
 }
 
 img{
