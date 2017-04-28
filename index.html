@@ -1,180 +1,225 @@
-<!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="app.css">
-    <script src="app.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <title></title>
-  </head>
-  <body>
-<div>
-</head>
-<body>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css"  media="screen,projection"/>
+      <link rel="stylesheet" href="app.css">
+      <link rel="stylesheet" href="materialize/css/materialize.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+      <script src="app.js"></script>
 
-<div id="mySidenav" class="sidenav">
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <!--Let browser know website is optimized for mobile-->
 
-  <a href="javascript:void(0)" class="animated zoomIn" class="tablinks" onclick="openCity(event, 'Projects')">PROJECTS</a>
-  <a href="javascript:void(0)" class="animated zoomIn"class="tablinks" onclick="openCity(event, 'Skills')">SKILLS</a></li>
-  <a href="javascript:void(0)" class="animated zoomIn"class="tablinks" onclick="openCity(event, 'Resume')">RESUME</a></li>
-  <a href="javascript:void(0)" class="animated zoomIn"class="tablinks" onclick="openCity(event, 'About')">ABOUT ME</a></li>
-  <a href="javascript:void(0)" class="animated zoomIn"class="tablinks" onclick="openCity(event, 'Contact')">CONTACT</a></li>
+      <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script type="text/javascript" src="materialize/js/materialize.min.js"></script>
+    </head>
 
-</div>
-
-  <ul class="tab">
-    <h1 class="animated zoomInDown">Erik Shepard-Lewis<br> Web Developer</h1>
-    <h3 class="animated fadeIn">Exploration Controls</h3><br>
-<div class="dropdown">
-<i class="animated zoomInDown" ><span   onclick="openNav()" class="material-icons" style="cursor:pointer;font-size:158px;color:blue">apps</i></span><br>
-
-    </div>
-
-
-<div id="Contact" class="tabcontent">
-  <h3>Contact Info</h3><br>
-  <a href="https://www.linkedin.com/in/erik-shepard-lewis">
-  				<img src="images/097145-3d-glossy-blue-orb-icon-social-media-logos-linkedin-logo-square2.png" alt="Linked-In"></a>
-          <h2>E-MAIL: ESLWEBDEVELOPMENT@AOL.COM</h2>
-
-</div>
-
-<div id="Skills" class="tabcontent">
-
-
-  <div class="skills">
- <div class="dropdown">
-  <div class="animated infinite pulse">
-   <button class="dropbtn">Special Abilities</button>
-   </div>
-   <div class="dropdown-content">
-     <a><img class="html" src="images/HTML5_Logo_gray-225.png"></a>
-     <a><img class="git" src="images/javascript-logo.png"></a>
-     <a><img class="git" src="images/css3-logo.png"></a>
-     <a><img class="git" src="images/api-icon.png"></a>
-     <a><img class="git" src="images/rubyaaaa.png"></a>
-     <a><img class="git" src="images/rails-new.sh-600x600.png"></a>
-     <a><img class="git" src="images/nodejsss.png"></a>
-     <a><img class="git" src="images/postgres-logo-01.png"></a>
-     <a><img class="git" src="images/sql-database-icon-png-21.png"></a>
-     <a><img class="git" src="images/badges_activerecord_Stage1.png"></a>
-     <a><img class="git" src="images/aaaaaa.png"></a>
-     <a><img class="git" src="images/mongoDB.png"></a>
-     <a><img class="git" src="images/realone.png"></a>
-     <a><img class="git" src="images/expressjs.png"></a>
-     <a><img class="git" src="images/AN.png"></a>
-     <a><img class="git" src="images/mean-stack.png"></a>
-     <a><img class="git" src="images/58480873cef1014c0b5e48ea.png"></a>
-     <a href="https://github.com/erikslewis">
-             <img class="git" src="images/githubsec.gif"></a>
-     <a><img class="git" src="images/AJAX_logo_by_gengns.svg.png"></a>
-     <a><img class="git" src="images/55124.png"></a>
-     <a><img class="git" src="images/zzzzzz.png"></a>
-     <a><img class="git" src="images/React-JS.sh.png"></a>
-     <a><img class="git" src="images/ws_logo.png"></a>
-   </div>
- </div>
-</div>
-</div>
-<div id="Resume" class="tabcontent">
-  <h3>Résumé</h3><br>
-  <a href="https://resume.creddle.io/resume/c32s35c8got"><img src="images/resume-icon-png-5.png"  ></a>
-
-</div>
-<div id="Projects" class="tabcontent">
-
-
-  <div class="dropdown">
-    <div class="animated infinite pulse">
-    <button class="dropbtn">Project Prototypes</button>
-  </div>
-    <div class="dropdown-content">
-      <div class="tooltip1">
-        <span class="tooltiptext1">Peer to Peer video chat & video conference Website. Built on Rails 5 Using PostgreSQL Database </span>
-        <a href="https://enigmatic-springs-56858.herokuapp.com/"  class="animated fadeIn"><img class="imgB" src="images/death-star-clipart-1.jpg"><br>Face Time World</a>
+    <body>
+      <ul id="slide-out" class="side-nav">
+        <li><div class="userView">
+      <div class="background">
+        <img src="images/rubyaaaa.png">
       </div>
-        <div class="tooltip">
-          <span class="tooltiptext">Cutting Edge Personal Training Fitness App With Voice Command Music Player Built on Rails 5 with Full CRUD Capabilities </span>
-        <a href="https://arcane-scrubland-17622.herokuapp.com/" class="animated fadeInUp"><img class="imgB" src="images/thisone.gif">Personal Trainer App</a>
-      </div>
+      <a href="#!user"><img class="circle" src="images/18191106_10154767191036713_1243322475_n.jpg"></a>
+      <a href="#!name"><span class="white-text name">Erik Shepard-Lewis</span></a>
+      <a href="#!email"><span class="white-text email">Full Stack Web Developer</span></a>
+            <li><a href="javascript:void(0)" class="animated slideInLeft"class="tablinks" onclick="openCity(event, 'Resume')">RESUME</a></li>
+              <li><a href="javascript:void(0)" class="animated slideInRight"class="tablinks" onclick="openCity(event, 'About')">ABOUT ME</a></li>
+              <li><a href="javascript:void(0)" class="animated slideInLeft"class="tablinks" onclick="openCity(event, 'Contact')">CONTACT</a></li>
+            <li> <a href="javascript:void(0)" class="animated slideInRight"class="tablinks" onclick="openCity(event, 'Skills')">SKILLS</a></li>
+            <li class="no-padding">
+              <ul class="collapsible collapsible-accordion">
+                <li>
+                  <a class="collapsible-header">PROJECTS<i class="material-icons">arrow_drop_down</i></a>
+                  <div class="collapsible-body">
+                    <ul>
+                      <li><a href="javascript:void(0)" class="animated slideInLeft" class="tablinks" onclick="openCity(event, 'React.JS')">React.JS</a></li>
+                      <li><a href="javascript:void(0)" class="animated slideInRight"class="tablinks" onclick="openCity(event, 'RubyonRails')">Ruby on Rails</a></li>
+                      <li><a href="javascript:void(0)" class="animated slideInLeft"class="tablinks" onclick="openCity(event, 'Angular.JS')">Angular.Js</a></li>
+                    <li> <a href="javascript:void(0)" class="animated slideInRight"class="tablinks" onclick="openCity(event, 'javascripthtml5css3')">javascript/HTML5/CSS3</a></li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+            </li>
+          </ul>
 
-<div class="tooltip2">
-  <span class="tooltiptext2">A Multiplayer HangMan game built with HTML5, Javascript and CSS</span>
-  <a  href="https://erikslewis.github.io/hangmanproject/"><img class="imgB" src="images/graphics-star-wars-896705.gif"/><br>HANGMAN GAME</a>
-</div>
-<div class="tooltip2">
-  <span class="tooltiptext2">Face time world mobile app version. Without the backend or User Auth.</span>
-  <a href="https://erikslewis.github.io/Video-chat/"><img class="work"src="images/graphics-star-wars-034923.gif"/><br>Face Time World Mobile</a>
-</div>
-    <div class="tooltip2">
-      <span class="tooltiptext2">General Assembly class exercise using REACT to create a movie search site. </span>
-<a href="https://erikslewis.github.io/React-Movie/"><img class="imgB" src="images/a14.gif"/><br>React Movie Search</a>
-</div>
-<div class="tooltip2">
-  <span class="tooltiptext2">Iron man Single player mobile game built with HTML5, CSS and Javascript</span>
-<a href="https://erikslewis.github.io/iron-man/"><img class="work1" src="images/graphics-star-wars-229414.gif"/><br>IRONMAN GAME</a>
-</div>
-<div class="tooltip2">
-  <span class="tooltiptext2">General Assembly Class Exercise Developing a drawing Website. </span>
-<a href="https://erikslewis.github.io/pixart_js/"><img class="huge"src="images/assaultship_crash2.gif"/><br>PICASSO ART!</a>
-</div>
-<div class="tooltip2">
-  <span class="tooltiptext2">Group Project Collaboration On GitHub Making A Single Page App Built With The MEAN STACK</span>
-<a href="https://erikslewis.github.io/gofilter/"class="animated lightSpeedIn"><img class="imgB" src="images/pirateA.gif"/><br>Photo Filter</a>
-</div>
-<div class="tooltip2">
-  <span class="tooltiptext2">401MMA.COM ProtoType website mobile app for Professional Fighter Mike Connors</span>
-<a href="https://erikslewis.github.io/401mma/"class="animated lightSpeedIn"><img class="imgB" src="images/89.gif"/><br>401 MMA</a>
-</div>
-    </div>
-  </div>
+          <ul class="tab">
+            <h1 class="animated zoomInDown">Erik Shepard-Lewis<br> Web Developer</h1>
+            <h3 class="animated fadeIn">Exploration Controls</h3><br>
+          <div class="dropdown">
+          <a href="#" data-activates="slide-out" class="button-collapse"><i class="animated zoomInDown"> <span class="material-icons" style="cursor:pointer;font-size:158px;color:blue">apps</i></span></a>
+
+          </div>
+          <div id="Contact" class="tabcontent">
+          <h3 class="animated rollIn">Contact Info</h3><br>
+          <a href="https://www.linkedin.com/in/erik-shepard-lewis">
+                  <img class="animated rollIn" src="images/097145-3d-glossy-blue-orb-icon-social-media-logos-linkedin-logo-square2.png" alt="Linked-In"></a>
+                  <h2 class="animated rollIn" >E-MAIL: ESLWEBDEVELOPMENT@AOL.COM</h2>
+
+          </div>
+
+          <div id="Skills" class="tabcontent">
+
+
+          <div class="skills">
+          <div class="dropdown">
+          <div class="animated infinite pulse">
+           <button class="dropbtn">Special Abilities</button>
+           </div>
+           <div class="dropdown-content5">
+             <a><img class="html" src="images/HTML5_Logo_gray-225.png"></a>
+             <a><img class="git" src="images/javascript-logo.png"></a>
+             <a><img class="git" src="images/css3-logo.png"></a>
+             <a><img class="git" src="images/api-icon.png"></a>
+             <a><img class="git" src="images/rubyaaaa.png"></a>
+             <a><img class="git" src="images/rails-new.sh-600x600.png"></a>
+             <a><img class="git" src="images/nodejsss.png"></a>
+             <a><img class="git" src="images/postgres-logo-01.png"></a>
+             <a><img class="git" src="images/sql-database-icon-png-21.png"></a>
+             <a><img class="git" src="images/badges_activerecord_Stage1.png"></a>
+             <a><img class="git" src="images/aaaaaa.png"></a>
+             <a><img class="git" src="images/mongoDB.png"></a>
+             <a><img class="git" src="images/realone.png"></a>
+             <a><img class="git" src="images/expressjs.png"></a>
+             <a><img class="git" src="images/AN.png"></a>
+             <a><img class="git" src="images/mean-stack.png"></a>
+             <a><img class="git" src="images/58480873cef1014c0b5e48ea.png"></a>
+             <a href="https://github.com/erikslewis">
+                     <img class="git" src="images/githubsec.gif"></a>
+             <a><img class="git" src="images/AJAX_logo_by_gengns.svg.png"></a>
+             <a><img class="git" src="images/55124.png"></a>
+             <a><img class="git" src="images/zzzzzz.png"></a>
+             <a><img class="git" src="images/React-JS.sh.png"></a>
+             <a><img class="git" src="images/ws_logo.png"></a>
+           </div>
+          </div>
+          </div>
+          </div>
+          <div id="Resume" class="tabcontent">
+          <h3 class="animated rollIn">Resume</h3><br>
+          <a href="https://resume.creddle.io/resume/c32s35c8got"><img class="animated rollIn" src="images/resume-icon-png-5.png"  ></a>
+
+          </div>
+          <div id="RubyonRails" class="tabcontent">
+            <div class="tooltip1">
+              <span class="tooltiptext1">Peer to Peer video chat & video conference Website. Built on Rails 5 Using PostgreSQL Database </span>
+              <a href="https://enigmatic-springs-56858.herokuapp.com/" class="animated zoomInLeft"><img class="imgB" src="images/death-star-clipart-1.jpg"><br>Face Time World</a>
+            </div>
+              <div class="tooltip">
+                <span class="tooltiptext">Cutting Edge Personal Training Fitness App With Voice Command Music Player Built on Rails 5 with Full CRUD Capabilities </span>
+              <a href="https://arcane-scrubland-17622.herokuapp.com/" class="animated zoomInRight"><img class="imgB" src="images/graphics-star-wars-896705.gif"><br>Personal Trainer App</a>
+            </div>
+          </div>
+            <div id="Angular.JS" class="tabcontent">
+              <div class="tooltip2">
+              <span class="tooltiptext2">Group Project Collaboration On GitHub Making A Single Page App Built With The MEAN STACK</span>
+              <a href="https://erikslewis.github.io/gofilter/"class="animated lightSpeedIn"><img class="imgB" src="images/pirateA.gif"/><br>Photo Filter</a>
+              </div>
+          </div>
+              <div id="javascripthtml5css3" class="tabcontent">
+                <div class="tooltip2">
+                <span class="tooltiptext2">A Multiplayer HangMan game built with HTML5, Javascript and CSS</span>
+                <a  href="https://erikslewis.github.io/hangmanproject/" class="animated slideInUp"><img class="imgB" src="images/thisone.gif"/><br>HANGMAN GAME</a>
+                </div>
+                <div class="tooltip2">
+                <span class="tooltiptext2">Instagram like social media app for connectiong with friends</span>
+                <a href="https://desolate-earth-24328.herokuapp.com/" class="animated slideInUp"><img class="work"src="images/89.gif"/><br>The Plug</a>
+                </div>
+                <div class="tooltip2">
+                <span class="tooltiptext2">Iron man Single player mobile game built with HTML5, CSS and Javascript</span>
+                <a href="https://erikslewis.github.io/iron-man/" class="animated slideInUp"><img class="work1" src="images/graphics-star-wars-229414.gif"/><br>IRONMAN GAME</a>
+                </div>
+                <div class="tooltip2">
+                <span class="tooltiptext2">General Assembly Class Exercise Developing a drawing Website. </span>
+                <a href="https://erikslewis.github.io/pixart_js/" class="animated slideInUp"><img class="huge"src="images/assaultship_crash2.gif"/><br>PICASSO ART!</a>
+                </div>
+                <div class="tooltip2">
+                <span class="tooltiptext2">401MMA.COM ProtoType website mobile app for Professional Fighter Mike Connors</span>
+                <a href="https://erikslewis.github.io/401mma/"class="animated lightSpeedIn"><img class="imgB" src="images/graphics-star-wars-034923.gif"/><br>401 MMA</a>
+                </div>
+           </div>
+         <div id="React.JS" class="tabcontent">
+          <div class="tooltip2">
+            <span class="tooltiptext2">General Assembly class exercise using REACT to create a movie search site. </span>
+        <a href="https://erikslewis.github.io/React-Movie/" class="animated slideInUp"><img class="imgB" src="images/a14.gif"/><br>React Movie Search</a>
+        </div>
 </div>
 
-<div id="Resume" class="tabcontent">
-  <h3>RESUME</h3>
-</div>
-  <div id="About" class="tabcontent">
-    <h3>ABOUT ME</h3><br>
-    <img src="images/148476564950119.png" charset="utf-8" style="width:300px; height:300px;">
-    <h2> Hi I'm Erik Shepard-Lewis, a former Rugby League player. I have Completed a full time 9am to 5pm, 3 month immersive training program at General Assembly. Solely focused on building my skills to become full stack Web Developer. I have obtained many skills as listed in the skill section. Every day I'm Continuously trying to learn and master new languages, frameworks and databases. I'm also an extremely fast learner. I love building things, helping people and being creative, making ideas come to life. The possibilities are limitless!  </h2>
-</div>
-<div class="Fly">
-  <img class="Fly" src="images/tumblr_mzpjx8VJTh1qcoscoo1_400.gif">
-</div>
-<br>
-<div class="animated infinite pulse">
-  <div id ="myContainer" class="animated rotateIn">
-      <button  class="sat" onclick="myMove()"><img  class="img2" src="images/newbtn.png" alt=""></button><br>
 
-<div id ="myAnimation">
-<img class="Fly" src='images/giffire.gif'></div>
-</div>
-</div>
+          <div id="Resume" class="tabcontent">
+          <h3>RESUME</h3>
+          </div>
+          <div id="About" class="tabcontent">
+            <h3>ABOUT ME</h3><br>
+            <img src="images/148476564950119.png" charset="utf-8" style="width:300px; height:300px;">
+            <h2> Hi I'm Erik Shepard-Lewis, a former Rugby League player. I have Completed a full time 9am to 5pm, 3 month immersive training program at General Assembly. Solely focused on building my skills to become full stack Web Developer. I have obtained many skills as listed in the skill section. Every day I'm Continuously trying to learn and master new languages, frameworks and databases. I'm also an extremely fast learner. I love building things, helping people and being creative, making ideas come to life. The possibilities are limitless!  </h2>
+          </div>
+          <div class="Fly">
+          <img class="Fly" src="images/tumblr_mzpjx8VJTh1qcoscoo1_400.gif">
+          </div>
+          <br>
+          <div class="animated infinite pulse">
+          <div id ="myContainer" class="animated rotateIn">
+              <button  class="sat" onclick="myMove()"><img  class="img2" src="images/newbtn.png" alt=""></button><br>
 
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+          <div id ="myAnimation">
+          <img class="Fly" src='images/giffire.gif'></div>
+          </div>
+          </div>
 
-<a href="https://www.linkedin.com/in/erik-shepard-lewis">
-				<img  class="img2" src="images/097145-3d-glossy-blue-orb-icon-social-media-logos-linkedin-logo-square2.png" alt="Linked-In"></a>
-      <a href="https://www.codecademy.com/methodSlayer60817">
-      				<img class="img2" src="images/codecademy.png"></a>
-            <a href="https://github.com/erikslewis">
-            				<img class="github" src="images/Github-icon.png"></a>
-                    <a href="https://www.codewars.com/users/DeadShotE">
-                            <img class="war" src="images/newist.jpeg"></a><br>
-<img class="logo" src="images/15910186_10207444276817050_233251890_n.jpg">
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
 
-</ul>
-</div>
-  </body>
-</html>
+          <a href="https://www.linkedin.com/in/erik-shepard-lewis">
+                <img  class="img2" src="images/097145-3d-glossy-blue-orb-icon-social-media-logos-linkedin-logo-square2.png" alt="Linked-In"></a>
+              <a href="https://www.codecademy.com/methodSlayer60817">
+                      <img class="img2" src="images/codecademy.png"></a>
+                    <a href="https://github.com/erikslewis">
+                            <img class="github" src="images/Github-icon.png"></a>
+                            <a href="https://www.codewars.com/users/DeadShotE">
+                                    <img class="war" src="images/newist.jpeg"></a><br>
+          <img class="logo" src="images/15910186_10207444276817050_233251890_n.jpg">
+
+          </ul>
+          </div>
+
+
+    </body>
+  </html>
+
+<script>
+$( document ).ready(function() {
+
+  // Initialize collapse button
+  $(".button-collapse").sideNav();
+  // Initialize collapsible (uncomment the line below if you use the dropdown variation)
+  $('.collapsible').collapsible();
+
+  $('.button-collapse').sideNav({
+     menuWidth: 600, // Default is 300
+     edge: 'left', // Choose the horizontal origin
+     closeOnClick: true, // Closes side-nav on <a> clicks, useful for Angular/Meteor
+     draggable: true // Choose whether you can drag to open on touch screens
+   }
+ );
+
+ $('.button-collapse').sideNav('show');
+  // Hide sideNav
+  $('.button-collapse').sideNav('hide');
+  // Destroy sideNav
+
+
+  });
+
+</script>
