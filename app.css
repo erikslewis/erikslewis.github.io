@@ -34,7 +34,6 @@ background-color: transparent;
 h5.Fit{
   color: green;
 }
-
 h5.man{
   color: yellow;
 }
@@ -82,12 +81,10 @@ html{
 .animated.fadeIn{
   -webkit-animation-duration: 2s;
   -webkit-animation-delay: 1s;
-
 }
 h3.animated.fadeIn{
  -webkit-animation-duration: 3s;
  -webkit-animation-delay: 2s;
-
 }
 h1.animated.zoomInDown{
  -webkit-animation-duration: 2s;
@@ -143,7 +140,6 @@ text-align: center;
 	-o-transition: all .1s ease;
 	transition: all .1s ease;
 }
-
 .dropbtn:active {
     -webkit-box-shadow: 0px 3px 0px blue, 0px 3px 6px blue;
     -moz-box-shadow: 0px 3px 0px blue, 0px 3px 6px blue;
@@ -151,24 +147,19 @@ text-align: center;
     position: relative;
     top: 6px;
 }
-
 .dropdown {
     position: relative;
     display: inline-block;
 }
-
 .dropdown-content5 {
     display: none;
     position: absolute;
     background-color: transparent;
-
     color: blue;
   text-shadow: -4px 0 2px silver, 0 4px 2px silver, 4px 0 2px silver, 0 -2px 2px silver ;
   font-family:monospace;
   font-weight: bolder;
-
 }
-
 .dropdown-content5 a {
     color: blue;
     padding: 12px 16px;
@@ -187,7 +178,6 @@ text-align: center;
     margin: auto;
     position: relative;
 }
-
 .dropdown:hover .dropbtn {
     background-color: transparent;
 }
@@ -195,7 +185,6 @@ img.war{
 width: 107px;
 height: 90px;
 }
-
 .skills{
    text-align: center;
   display: inline-block;
@@ -311,14 +300,12 @@ img.Fly{
   width: 270px;
   height: 240px;
   border-radius:  408px;
-
 }
 footer{
   display: block;
   text-align: center;
   margin-top: 838px;
 }
-
 img.github{
   width: 85px;
   height: 93px;
@@ -327,13 +314,10 @@ img.git{
   width: 160px;
   height: 190px;
 }
-
 img.sat{
   text-align: right;
   position: relative;
   margin-right: 109px;
-
-
 }
 img.html{
   width:220px;
@@ -385,7 +369,6 @@ img.logo{
     display: inline-block;
     border-bottom: 1px dotted black;
 }
-
 .tooltip .tooltiptext {
     visibility: hidden;
     width: 170px;
@@ -440,7 +423,6 @@ img.logo{
     opacity: 0;
     transition: opacity 1s;
 }
-
 .tooltip .tooltiptext::after {
     content: "";
     position: absolute;
@@ -471,7 +453,6 @@ img.logo{
     border-style: solid;
     border-color: #555 transparent transparent transparent;
 }
-
 .tooltip:hover .tooltiptext {
     visibility: visible;
     opacity: 1;
@@ -496,7 +477,6 @@ img.logo{
     transition: 0.5s;
     padding-top: 60px;
 }
-
 .sidenav a {
     padding: 18px 18px 28px 32px;
     text-decoration: none;
@@ -510,7 +490,6 @@ img.logo{
     display: block;
     transition: 0.3s
 }
-
 .sidenav a:hover, .offcanvas a:focus{
     color: gray;
 }
