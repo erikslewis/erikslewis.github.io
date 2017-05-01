@@ -89,7 +89,6 @@ h3.animated.fadeIn{
 h1.animated.zoomInDown{
  -webkit-animation-duration: 2s;
  -webkit-animation-delay: 0s;
-
 }
 .animated.zoomIn{
  -webkit-animation-duration: 3s;
@@ -111,7 +110,6 @@ button.animated.fadeIn{
  -webkit-animation-duration: 3s;
  -webkit-animation-delay: 2s;
 }
-
 .dropbtn {
     background-color: silver;
     font-size: 66px;
@@ -169,9 +167,7 @@ text-align: center;
     font-size: 38px;
     width: 320px;
 }
-
 .dropdown-content5 a:hover {background-color: silver;}
-
 .dropdown:hover .dropdown-content5 {
     display: block;
     text-align: center;
@@ -200,14 +196,12 @@ ul.tab {
     display: inline-block;
     position: relative;
 }
-
 /* Float the list items side by side */
 ul.tab li {display:table-cell;
 margin: 0 auto;
 text-align: center;
 position: relative;
 }
-
 /* Style the links inside the list items */
 ul.tab li a {
     display:block;
@@ -225,18 +219,15 @@ ul.tab li a {
   text-shadow: -4px 0 2px silver, 0 4px 2px silver, 4px 0 2px silver, 0 -2px 2px silver ;
   font-family:monospace;
 }
-
 /* Change background color of links on hover */
 ul.tab li a:hover {
     background-color: #ddd;
 
 }
-
 /* Create an active/current tablink class */
 ul.tab li a:focus, .active {
     background-color: #ccc;
 }
-
 /* Style the tab content */
 .tabcontent {
     display: none;
@@ -267,7 +258,6 @@ ul.tab li a:focus, .active {
   position: absolute;
   background-color: red;
 }
-
 div.Fly {
     width: 0px;
     height: 0px;
@@ -276,7 +266,6 @@ div.Fly {
     -webkit-animation: myfirst 5s linear 8s infinite alternate; /* Safari 4.0 - 8.0 */
     animation: myfirst 5s cubic-bezier(1, -0.17, 0, 1.44) 6s infinite alternate;
 }
-
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes myfirst {
     0%   {background-color:red; left:0px; top:0px;}
@@ -294,7 +283,6 @@ div.Fly {
     75%  {background-color:orange; left:0px; top:-200px;}
     100% {background-color:red; left:0px; top:-200px;}
 }
-
 img.Fly{
   zoom: 42%;
   width: 270px;
@@ -341,10 +329,8 @@ img.html{
   margin: auto;
   position: relative;
 }
-
 @media (max-width: 600px) {
 }
-
 button.sat{
 background-color: transparent;
 border: none;
@@ -493,7 +479,6 @@ img.logo{
 .sidenav a:hover, .offcanvas a:focus{
     color: gray;
 }
-
 .sidenav .closebtn {
     position: absolute;
     top: -22px;
