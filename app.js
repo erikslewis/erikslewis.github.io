@@ -33,12 +33,3 @@ document.getElementById("myton").onclick = function() {myFunction()};
 function myFunction() {
     document.getElementById("myDropdown").classList.toggle("show");
 }
-
-
-function openNav() {
-    document.getElementById("mySidenav").style.width = "380px";
-}
-
-function closeNav() {
-    document.getElementById("mySidenav").style.width = "0";
-}

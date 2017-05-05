@@ -1,6 +1,6 @@
 h1{
-  color: blue;
-  text-align: center;
+color: blue;
+text-align: center;
 text-shadow: -4px 0 2px silver, 0 4px 2px silver, 4px 0 2px silver, 0 -2px 2px silver ;
 font-weight: bolder;
 font-size: 55px;
@@ -8,8 +8,8 @@ font-family:monospace;
 margin-bottom: -10px;
 }
 h2{
-  color: blue;
-  font-size: 35px;
+color: blue;
+font-size: 35px;
 text-align: center;
 text-shadow: -4px 0 2px silver, 0 4px 2px silver, 4px 0 2px silver, 0 -2px 2px silver ;
 font-weight: bolder;
