@@ -216,11 +216,6 @@ ul.tab li a {
   text-shadow: -4px 0 2px silver, 0 4px 2px silver, 4px 0 2px silver, 0 -2px 2px silver ;
   font-family:monospace;
 }
-/* Change background color of links on hover */
-ul.tab li a:hover {
-    background-color: #ddd;
-
-}
 /* Create an active/current tablink class */
 ul.tab li a:focus, .active {
     background-color: #ccc;

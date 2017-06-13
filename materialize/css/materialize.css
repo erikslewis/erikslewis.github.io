@@ -7245,7 +7245,7 @@ input[type=range]:focus::-ms-fill-upper {
   bottom: 0;
   left: 0;
   z-index: -1;
-    background-color: green;
+
 }
 
 .side-nav .userView .circle, .side-nav .userView .name, .side-nav .userView .email {
@@ -7306,7 +7306,7 @@ input[type=range]:focus::-ms-fill-upper {
   }
   .side-nav .userView {
     padding: 16px 16px 0;
-      background-color: black;
+      background-color: #2d2d30;
   }
 }
 
