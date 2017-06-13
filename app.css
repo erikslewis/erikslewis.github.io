@@ -67,8 +67,8 @@ display: inline-block;
 body{
 background-image: url('images/www.GIFCreator.me_rwAJhX.gif');
 background-position: center;
-background-size: cover;
-background-attachment: fixed;
+background-size:cover;
+background-attachment:fixed;
 background-color: black;
 margin: 0 auto;
 text-align: center;
@@ -193,33 +193,7 @@ ul.tab {
     display: inline-block;
     position: relative;
 }
-/* Float the list items side by side */
-ul.tab li {display:table-cell;
-margin: 0 auto;
-text-align: center;
-position: relative;
-}
-/* Style the links inside the list items */
-ul.tab li a {
-    display:block;
-    color: blue;
-    text-align: center;
-    width: 400px;
-    text-decoration: none;
-    transition: 0.3s;
-    font-size: 70px;
-    border: 10px double blue;
-    font-weight: bolder;
-    margin: auto;
-    position: relative;
-    color: blue;
-  text-shadow: -4px 0 2px silver, 0 4px 2px silver, 4px 0 2px silver, 0 -2px 2px silver ;
-  font-family:monospace;
-}
-/* Create an active/current tablink class */
-ul.tab li a:focus, .active {
-    background-color: #ccc;
-}
+
 /* Style the tab content */
 .tabcontent {
     display: none;
