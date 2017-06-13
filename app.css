@@ -3,9 +3,8 @@ color: blue;
 text-align: center;
 text-shadow: -4px 0 2px silver, 0 4px 2px silver, 4px 0 2px silver, 0 -2px 2px silver ;
 font-weight: bolder;
-font-size: 55px;
 font-family:monospace;
-margin-bottom: -10px;
+
 }
 h2{
 color: blue;
@@ -57,8 +56,7 @@ h4{
   color: black;
 }
 h3{
-  color: blue;
-  font-size: 47px;
+color: blue;
 text-align: center;
 text-shadow: -4px 0 2px silver, 0 4px 2px silver, 4px 0 2px silver, 0 -2px 2px silver ;
 font-weight: bolder;
@@ -85,10 +83,12 @@ html{
 h3.animated.fadeIn{
  -webkit-animation-duration: 3s;
  -webkit-animation-delay: 2s;
+ font-size: 25px;
 }
 h1.animated.zoomInDown{
  -webkit-animation-duration: 2s;
  -webkit-animation-delay: 0s;
+ font-size: 25px;
 }
 .animated.zoomIn{
  -webkit-animation-duration: 3s;
@@ -312,10 +312,10 @@ img.html{
   height: 220px;
 }
 #myContainer {
-  position: relative;
-  text-align: center;
- margin: auto;
- padding-left: 46px;
+position: relative;
+text-align: center;
+margin: auto;
+padding-left: 46px;
 }
 #myAnimation {
   background-color: transparent;
@@ -491,7 +491,7 @@ img.logo{
   .sidenav a {font-size: 18px;}
 }
 img.hire{
-  width: 160%;
-  height: 60%;
-  margin-left: -30%;
+  width: 80%;
+  height: 70%;
+
 }
