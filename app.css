@@ -66,8 +66,7 @@ display: inline-block;
 }
 body{
 background-image: url('images/www.GIFCreator.me_rwAJhX.gif');
-background-position: center;
-background-size:auto 75%;
+background-size:cover;
 background-attachment:fixed;
 background-color: black;
 margin: 0 auto;
