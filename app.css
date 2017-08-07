@@ -127,12 +127,12 @@ padding: 4px;
 -moz-border-radius: 18px;
 border-radius: 18px;
 -webkit-box-shadow: 9px 9px 9px blue, 9px 9px 25px blue;
--moz-box-shadow: 9px 9px 9px blue, 9px 9px 25px blue;
--webkit-transition: all .1s ease;
--moz-transition: all .1s ease;
--ms-transition: all .1s ease;
--o-transition: all .1s ease;
-transition: all .1s ease;
+  -moz-box-shadow: 9px 9px 9px blue, 9px 9px 25px blue;
+	-webkit-transition: all .1s ease;
+	-moz-transition: all .1s ease;
+	-ms-transition: all .1s ease;
+	-o-transition: all .1s ease;
+	transition: all .1s ease;
 }
 .dropbtn:active {
     -webkit-box-shadow: 0px 3px 0px blue, 0px 3px 6px blue;
@@ -146,10 +146,10 @@ transition: all .1s ease;
     display: inline-block;
 }
 .dropdown-content5 {
-  display: none;
-  position: absolute;
-  background-color: transparent;
-  color: blue;
+    display: none;
+    position: absolute;
+    background-color: transparent;
+    color: blue;
   text-shadow: -4px 0 2px silver, 0 4px 2px silver, 4px 0 2px silver, 0 -2px 2px silver ;
   font-family:monospace;
   font-weight: bolder;
@@ -252,7 +252,7 @@ img.Fly{
   zoom: 42%;
   width: 270px;
   height: 240px;
-  border-radius: 408px;
+  border-radius:  408px;
 }
 footer{
   display: block;
@@ -358,7 +358,7 @@ img.logo{
 }
 .tooltip1 .tooltiptext1 {
     visibility: hidden;
-    width: 170px;
+    width: 270px;
     height: 200px;
     font-size: 18px;
     background-color: #555;
