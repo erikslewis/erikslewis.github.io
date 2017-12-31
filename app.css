@@ -47,8 +47,6 @@ h5.man {
 img.img2 {
   height: 110px;
   width: 110px;
-  display: block;
-margin: 0 auto;
 }
 
 img.imgB {
@@ -266,7 +264,7 @@ ul.tab {
 #myContainer {
   width: 200px;
   height: 200px;
-  position: fixed;
+  position: relative;
   display: block;
 margin: 0 auto;
 }
