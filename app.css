@@ -122,7 +122,7 @@ button.animated.fadeIn {
 
 #myContainer.animated.rotateIn {
   -webkit-animation-duration: 3s;
-  -webkit-animation-delay: 5s;
+  -webkit-animation-delay: 4s;
 }
 
 .animated.zoomInDown {
@@ -263,7 +263,7 @@ ul.tab {
 
 #myContainer {
   width: 200px;
-  height: 100px;
+  height: 400px;
   position: fixed;
 }
 
