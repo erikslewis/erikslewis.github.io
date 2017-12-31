@@ -1,431 +1,552 @@
-h1{
-color: #003b00;
-font-size: 60px;
-text-align: center;
-text-shadow: -4px 0 2px #00ff41, 0 4px 2px #00ff41, 4px 0 2px #00ff41, 0 -2px 2px #00ff41 ;
-font-weight: bolder;
-font-family:monospace;
+h1 {
+  color: #003b00;
+  font-size: 60px;
+  text-align: center;
+  text-shadow: -4px 0 2px #00ff41, 0 4px 2px #00ff41, 4px 0 2px #00ff41, 0 -2px 2px #00ff41;
+  font-weight: bolder;
+  font-family: monospace;
 }
-h2{
-color: #003b00;
-font-size: 20px;
-text-align: center;
-text-shadow: -4px 0 2px #00ff41, 0 4px 2px #00ff41, 4px 0 2px #00ff41, 0 -2px 2px #00ff41 ;
-font-weight: bolder;
-font-family:monospace;
+
+h2 {
+  color: #003b00;
+  font-size: 20px;
+  text-align: center;
+  text-shadow: -4px 0 2px #00ff41, 0 4px 2px #00ff41, 4px 0 2px #00ff41, 0 -2px 2px #00ff41;
+  font-weight: bolder;
+  font-family: monospace;
 }
-a{
+
+a {
   color: #008f11;
 }
-div.javascripthtml5css3.tabcontent{
+
+div.javascripthtml5css3.tabcontent {
   display: block;
 }
-.work{
-height:110px;
-width: 200px;
-background-color: transparent;
+
+.work {
+  height: 110px;
+  width: 200px;
+  background-color: transparent;
 }
-.work1{
-height:100px;
-width: 147px;
-background-color: transparent;
+
+.work1 {
+  height: 100px;
+  width: 147px;
+  background-color: transparent;
 }
-h5.Fit{
+
+h5.Fit {
   color: green;
 }
-h5.man{
+
+h5.man {
   color: yellow;
 }
-img.img2{
-  height:100px;
-  width: 100px;
+
+img.img2 {
+  height: 140px;
+  width: 140px;
 }
-img.imgB{
-  height:200px;
+
+img.imgB {
+  height: 200px;
   width: 200px;
 }
-img.huge{
-  height:200px;
+
+img.huge {
+  height: 200px;
   width: 200px;
 }
-img{
-  height:280px;
+
+img {
+  height: 280px;
   width: 200px;
 }
-h4{
+
+h4 {
   color: black;
 }
-h3{
-color: #003b00;
-font-size: 38px;
-text-align: center;
-text-shadow: -4px 0 2px #00ff41, 0 4px 2px #00ff41, 4px 0 2px #00ff41, 0 -2px 2px #00ff41 ;
-font-weight: bolder;
-font-family:monospace;
-position: relative;
-display: inline-block;
+
+h3 {
+  color: #003b00;
+  font-size: 38px;
+  text-align: center;
+  text-shadow: -4px 0 2px #00ff41, 0 4px 2px #00ff41, 4px 0 2px #00ff41, 0 -2px 2px #00ff41;
+  font-weight: bolder;
+  font-family: monospace;
+  position: relative;
+  display: inline-block;
 }
-body{
-background-image: url('images/www.GIFCreator.me_rwAJhX.gif');
-background-size:contain;
-background-attachment:fixed;
-background-color: black;
-margin: 0 auto;
-text-align: center;
-background-repeat: no-repeat;
+
+body {
+  background-image: url('images/www.GIFCreator.me_rwAJhX.gif');
+  background-size: contain;
+  background-attachment: fixed;
+  background-color: black;
+  margin: 0 auto;
+  text-align: center;
+  background-repeat: no-repeat;
 }
-html{
+
+html {
   width: auto;
 }
-.animated.fadeIn{
+
+.animated.fadeIn {
   -webkit-animation-duration: 2s;
   -webkit-animation-delay: 1s;
 }
-h3.animated.fadeIn{
- -webkit-animation-duration: 3s;
- -webkit-animation-delay: 2s;
- font-size: 29px;
+
+h3.animated.fadeIn {
+  -webkit-animation-duration: 3s;
+  -webkit-animation-delay: 2s;
+  font-size: 29px;
 }
-h1.animated.zoomInDown{
- -webkit-animation-duration: 2s;
- -webkit-animation-delay: 0s;
- font-size: 26px;
+
+h1.animated.zoomInDown {
+  -webkit-animation-duration: 2s;
+  -webkit-animation-delay: 0s;
+  font-size: 26px;
 }
-.animated.zoomIn{
- -webkit-animation-duration: 3s;
- -webkit-animation-delay: 5.5s;
+
+.animated.zoomIn {
+  -webkit-animation-duration: 3s;
+  -webkit-animation-delay: 5.5s;
 }
-button.animated.fadeIn{
- -webkit-animation-duration: 3s;
- -webkit-animation-delay: 4s;
+
+button.animated.fadeIn {
+  -webkit-animation-duration: 3s;
+  -webkit-animation-delay: 4s;
 }
-#myContainer.animated.rotateIn{
- -webkit-animation-duration: 3s;
- -webkit-animation-delay: 5s;
+
+#myContainer.animated.rotateIn {
+  -webkit-animation-duration: 3s;
+  -webkit-animation-delay: 5s;
 }
-.animated.zoomInDown{
- -webkit-animation-duration: 3.5s;
- -webkit-animation-delay: 3s;
+
+.animated.zoomInDown {
+  -webkit-animation-duration: 3.5s;
+  -webkit-animation-delay: 3s;
 }
-.animated.fadeInUp{
- -webkit-animation-duration: 3s;
- -webkit-animation-delay: 2s;
+
+.animated.fadeInUp {
+  -webkit-animation-duration: 3s;
+  -webkit-animation-delay: 2s;
 }
+
 .dropbtn {
-background-color: #00ff41;
-font-size: 46px;
-border-color: transparent;
-width: 300px;
-height: 200px;
-color: black;
-text-shadow: -4px 2px 2px #008f11, 2px 4px 2px #008f11, 4px 2px 2px #008f11, 2px -2px 2px #008f11 ;
-font-family:monospace;
-font-weight: bolder;
-position: relative;
-text-align: center;
-font-weight: 300;
-display: inline-block;
-padding: 4px;
--webkit-border-radius: 18px;
--moz-border-radius: 18px;
-border-radius: 18px;
--webkit-box-shadow: 9px 9px 9px #008f11, 9px 9px 25px #003b00;
+  background-color: #00ff41;
+  font-size: 46px;
+  border-color: transparent;
+  width: 300px;
+  height: 200px;
+  color: black;
+  text-shadow: -4px 2px 2px #008f11, 2px 4px 2px #008f11, 4px 2px 2px #008f11, 2px -2px 2px #008f11;
+  font-family: monospace;
+  font-weight: bolder;
+  position: relative;
+  text-align: center;
+  font-weight: 300;
+  display: inline-block;
+  padding: 4px;
+  -webkit-border-radius: 18px;
+  -moz-border-radius: 18px;
+  border-radius: 18px;
+  -webkit-box-shadow: 9px 9px 9px #008f11, 9px 9px 25px #003b00;
   -moz-box-shadow: 9px 9px 9px #008f11, 9px 9px 25px #003b00;
-	-webkit-transition: all .1s ease;
-	-moz-transition: all .1s ease;
-	-ms-transition: all .1s ease;
-	-o-transition: all .1s ease;
-	transition: all .1s ease;
+  -webkit-transition: all .1s ease;
+  -moz-transition: all .1s ease;
+  -ms-transition: all .1s ease;
+  -o-transition: all .1s ease;
+  transition: all .1s ease;
 }
+
 .dropbtn:active {
-    -webkit-box-shadow: 0px 3px 0px #008f11, 0px 3px 6px #008f11;
-    -moz-box-shadow: 0px 3px 0px #008f11, 0px 3px 6px #008f11;
-    box-shadow: 0px 3px 0px #008f11, 0px 3px 6px #008f11;
-    position: relative;
-    top: 6px;
+  -webkit-box-shadow: 0px 3px 0px #008f11, 0px 3px 6px #008f11;
+  -moz-box-shadow: 0px 3px 0px #008f11, 0px 3px 6px #008f11;
+  box-shadow: 0px 3px 0px #008f11, 0px 3px 6px #008f11;
+  position: relative;
+  top: 6px;
 }
+
 .dropdown {
-    position: relative;
-    display: inline-block;
+  position: relative;
+  display: inline-block;
 }
+
 .dropdown-content5 {
-    display: none;
-    position: absolute;
-    background-color: transparent;
-    color: #003b00;
-  text-shadow: -4px 0 2px silver, 0 4px 2px silver, 4px 0 2px silver, 0 -2px 2px silver ;
-  font-family:monospace;
+  display: none;
+  position: absolute;
+  background-color: transparent;
+  color: #003b00;
+  text-shadow: -4px 0 2px silver, 0 4px 2px silver, 4px 0 2px silver, 0 -2px 2px silver;
+  font-family: monospace;
   font-weight: bolder;
 }
+
 .dropdown-content5 a {
-    color:  #003b00;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: inline-block;
-    text-align: center;
-    font-size: 38px;
-    width: 320px;
+  color: #003b00;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  font-size: 38px;
+  width: 320px;
 }
-.dropdown-content5 a:hover {background-color: silver;}
+
+.dropdown-content5 a:hover {
+  background-color: silver;
+}
+
 .dropdown:hover .dropdown-content5 {
-    display: block;
-    text-align: center;
-    margin: auto;
-    position: relative;
+  display: block;
+  text-align: center;
+  margin: auto;
+  position: relative;
 }
+
 .dropdown:hover .dropbtn {
-    background-color: transparent;
+  background-color: transparent;
 }
-img.war{
-width: 107px;
-height: 90px;
+
+img.war {
+  width: 107px;
+  height: 90px;
 }
-.skills{
-   text-align: center;
+
+.skills {
+  text-align: center;
   display: inline-block;
   position: relative;
   margin: auto;
 }
+
 ul.tab {
-    list-style-type: none;
-    margin: auto auto;
-    overflow: hidden;
-    background-color: transparent;
-    text-align: center;
-    display: inline-block;
-    position: relative;
+  list-style-type: none;
+  margin: auto auto;
+  overflow: hidden;
+  background-color: transparent;
+  text-align: center;
+  display: inline-block;
+  position: relative;
 }
 
+
 /* Style the tab content */
+
 .tabcontent {
-    display: none;
-   -webkit-animation: fadeEffect 1s;
-    animation: fadeEffect 1s;
-    margin: auto;
-    text-align: center;
+  display: none;
+  -webkit-animation: fadeEffect 1s;
+  animation: fadeEffect 1s;
+  margin: auto;
+  text-align: center;
 }
 
 @-webkit-keyframes fadeEffect {
-    from {opacity: 0;}
-    to {opacity: 1;}
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 @keyframes fadeEffect {
-    from {opacity: 0;}
-    to {opacity: 1;}
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
+
 #myContainer {
   width: 200px;
   height: 100px;
-  position:fixed;
-
-
+  position: fixed;
 }
+
 #myAnimation {
   width: 30px;
   height: 30px;
   position: absolute;
   background-color: red;
 }
+
 div.Fly {
-    width: 0px;
-    height: 0px;
-    background-color: red;
-    position: relative;
-    -webkit-animation: myfirst 5s linear 8s infinite alternate; /* Safari 4.0 - 8.0 */
-    animation: myfirst 5s cubic-bezier(1, -0.17, 0, 1.44) 6s infinite alternate;
-}
-/* Safari 4.0 - 8.0 */
-@-webkit-keyframes myfirst {
-    0%   {background-color:red; left:0px; top:0px;}
-    25%  {background-color:yellow; left:200px; top:0px;}
-    50%  {background-color:blue; left:300px; top:200px;}
-    75%  {background-color:green; left:0px; top:200px;}
-    100% {background-color:red; left:0px; top:0px;}
+  width: 0px;
+  height: 0px;
+  background-color: red;
+  position: relative;
+  -webkit-animation: myfirst 5s linear 8s infinite alternate;
+  /* Safari 4.0 - 8.0 */
+  animation: myfirst 5s cubic-bezier(1, -0.17, 0, 1.44) 6s infinite alternate;
 }
 
-/* Standard syntax */
-@keyframes myfirst {
-    0%   {background-color:red; left:0px; top:600px;}
-    25%  {background-color:yellow; left:880px; top:380px;}
-    50%  {background-color:blue; left:200px; top:380px;}
-    75%  {background-color:orange; left:0px; top:-200px;}
-    100% {background-color:red; left:0px; top:-200px;}
+
+/* Safari 4.0 - 8.0 */
+
+@-webkit-keyframes myfirst {
+  0% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    background-color: yellow;
+    left: 200px;
+    top: 0px;
+  }
+  50% {
+    background-color: blue;
+    left: 300px;
+    top: 200px;
+  }
+  75% {
+    background-color: green;
+    left: 0px;
+    top: 200px;
+  }
+  100% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+  }
 }
-img.Fly{
+
+
+/* Standard syntax */
+
+@keyframes myfirst {
+  0% {
+    background-color: red;
+    left: 0px;
+    top: 600px;
+  }
+  25% {
+    background-color: yellow;
+    left: 880px;
+    top: 380px;
+  }
+  50% {
+    background-color: blue;
+    left: 200px;
+    top: 380px;
+  }
+  75% {
+    background-color: orange;
+    left: 0px;
+    top: -200px;
+  }
+  100% {
+    background-color: red;
+    left: 0px;
+    top: -200px;
+  }
+}
+
+img.Fly {
   zoom: 42%;
   width: 280px;
   height: 300px;
-  border-radius:  408px;
+  border-radius: 408px;
 }
-footer{
+
+footer {
   display: block;
   text-align: center;
   margin-top: 838px;
 }
-img.github{
+
+img.github {
   width: 85px;
   height: 93px;
 }
-img.git{
+
+img.git {
   width: 160px;
   height: 190px;
 }
-img.sat{
+
+img.sat {
   text-align: right;
   position: relative;
   margin-right: 109px;
 }
-img.html{
-  width:220px;
+
+img.html {
+  width: 220px;
   height: 220px;
 }
+
 #myContainer {
-position: relative;
-text-align: center;
-margin: auto;
-padding-left: 46px;
+  position: relative;
+  text-align: center;
+  margin: auto;
+  padding-left: 46px;
 }
+
 #myAnimation {
   background-color: transparent;
   position: absolute;
   border-radius: 10px;
 }
-#myton{
+
+#myton {
   background: transparent;
   border: none;
   text-align: center;
   margin: auto;
   position: relative;
 }
-@media (max-width: 600px) {
+
+@media (max-width: 600px) {}
+
+button.sat {
+  background-color: transparent;
+  border: none;
+  margin-right: 96px;
 }
-button.sat{
-background-color: transparent;
-border: none;
-margin-right: 96px;
-}
-img.logo{
+
+img.logo {
   width: 170px;
   height: 150px;
 }
+
 .tooltip {
-    position: relative;
-    display: inline-block;
-    border-bottom: 1px dotted black;
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
 }
+
 .tooltip1 {
-    position: relative;
-    display: inline-block;
-    border-bottom: 1px dotted black;
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
 }
+
 .tooltip2 {
-    position: relative;
-    display: inline-block;
-    border-bottom: 1px dotted black;
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
 }
+
 .tooltip .tooltiptext {
-    visibility: hidden;
-    width: 170px;
-    height: 210px;
-    font-size: 18px;
-    background-color: #555;
-    color: blue;
-    text-align: center;
-    border-radius: 6px;
-    padding: 5px 0;
-    position: absolute;
-    z-index: 1;
-    bottom: 125%;
-    left: 50%;
-    margin-left: -85px;
-    opacity: 0;
-    transition: opacity 1s;
+  visibility: hidden;
+  width: 170px;
+  height: 210px;
+  font-size: 18px;
+  background-color: #555;
+  color: blue;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -85px;
+  opacity: 0;
+  transition: opacity 1s;
 }
+
 .tooltip2 .tooltiptext2 {
-    visibility: hidden;
-    width: 170px;
-    height: 150px;
-    font-size: 18px;
-    background-color: #555;
-    color: blue;
-    text-align: center;
-    border-radius: 6px;
-    padding: 5px 0;
-    position: absolute;
-    z-index: 1;
-    bottom: 125%;
-    left: 50%;
-    margin-left: -75px;
-    opacity: 0;
-    transition: opacity 1s;
+  visibility: hidden;
+  width: 170px;
+  height: 150px;
+  font-size: 18px;
+  background-color: #555;
+  color: blue;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -75px;
+  opacity: 0;
+  transition: opacity 1s;
 }
+
 .tooltip1 .tooltiptext1 {
-    visibility: hidden;
-    width: 270px;
-    height: 200px;
-    font-size: 18px;
-    background-color: #555;
-    color: blue;
-    text-align: center;
-    border-radius: 6px;
-    padding: 5px 0;
-    position: absolute;
-    z-index: 1;
-    bottom: 125%;
-    left: 50%;
-    margin-left: -150px;
-    opacity: 0;
-    transition: opacity 1s;
+  visibility: hidden;
+  width: 270px;
+  height: 200px;
+  font-size: 18px;
+  background-color: #555;
+  color: blue;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -150px;
+  opacity: 0;
+  transition: opacity 1s;
 }
+
 .tooltip .tooltiptext::after {
-    content: "";
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    margin-left: -5px;
-    border-width: 5px;
-    border-style: solid;
-    border-color: #555 transparent transparent transparent;
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
 }
+
 .tooltip2 .tooltiptext2::after {
-    content: "";
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    margin-left: -5px;
-    border-width: 5px;
-    border-style: solid;
-    border-color: #555 transparent transparent transparent;
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
 }
+
 .tooltip1 .tooltiptext1::after {
-    content: "";
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    margin-left: -5px;
-    border-width: 5px;
-    border-style: solid;
-    border-color: #555 transparent transparent transparent;
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
 }
+
 .tooltip:hover .tooltiptext {
-    visibility: visible;
-    opacity: 1;
+  visibility: visible;
+  opacity: 1;
 }
+
 .tooltip1:hover .tooltiptext1 {
-    visibility: visible;
-    opacity: 1;
+  visibility: visible;
+  opacity: 1;
 }
+
 .tooltip2:hover .tooltiptext2 {
-    visibility: visible;
-    opacity: 1;
+  visibility: visible;
+  opacity: 1;
 }
 
 @media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
 }
-img.hire{
+
+img.hire {
   width: 80%;
   height: 70%;
 }
