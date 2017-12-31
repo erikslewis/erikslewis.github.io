@@ -5703,7 +5703,7 @@ border-style: solid;
 
 .side-nav .collapsible-header:hover,
 .side-nav.fixed .collapsible-header:hover {
-  background-color: #039be5;
+  background-color: #008f11;
 }
 
 .side-nav .collapsible-header i,
@@ -7103,7 +7103,7 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 #slide-out{
-    background-color: silver;
+    background-color:  #00ff41;
 
 }
 
@@ -7154,11 +7154,11 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 .side-nav li.active {
-  background-color: #333;
+  background-color: #00ff41;
 }
 
 .side-nav li > a {
-    background-color: silver;
+    background-color: #008f11;
   display: block;
   font-size: 34px;
   font-weight: 500;
@@ -7171,7 +7171,7 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 .side-nav li > a:hover {
-  background-color:#039be5;
+  background-color: #00ff41;
 }
 
 .side-nav li > a.btn, .side-nav li > a.btn-large, .side-nav li > a.btn-large, .side-nav li > a.btn-flat, .side-nav li > a.btn-floating {
@@ -7183,15 +7183,15 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 .side-nav li > a.btn-flat {
-  color: #343434;
+  color: #008f11;
 }
 
 .side-nav li > a.btn:hover, .side-nav li > a.btn-large:hover, .side-nav li > a.btn-large:hover {
-  background-color: #2bbbad;
+  background-color: #008f11;
 }
 
 .side-nav li > a.btn-floating:hover {
-  background-color: #26a69a;
+  background-color: #008f11;
 }
 
 .side-nav li > a > i,
@@ -7218,7 +7218,7 @@ input[type=range]:focus::-ms-fill-upper {
   line-height: 48px;
 }
 .side-nav .subheader:hover {
-  background-color: blue;
+  background-color: #00ff41;
 }
 .side-nav .userView {
   position: relative;
@@ -7233,7 +7233,7 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 .side-nav .userView > a:hover {
-  background-color: blue;
+  background-color: #00ff41;
 }
 
 .side-nav .userView .background {
@@ -7256,6 +7256,9 @@ input[type=range]:focus::-ms-fill-upper {
   height: 164px;
   width: 174px;
   margin: auto;
+  border-style: solid;
+  border-width: thick;
+  border-color: #00ff41;
 }
 
 .side-nav .userView .name,
