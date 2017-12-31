@@ -215,9 +215,10 @@ ul.tab {
     to {opacity: 1;}
 }
 #myContainer {
-  width: 220px;
+  width: 210px;
   height: 200px;
   position: relative;
+  display: inline-block;
 
 }
 #myAnimation {
