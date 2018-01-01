@@ -355,6 +355,12 @@ img.Fly {
   height: 300px;
   border-radius: 408px;
 }
+img.Fly2 {
+  zoom: 42%;
+  width: 380px;
+  height: 300px;
+  border-radius: 408px;
+}
 
 footer {
   display: block;
@@ -375,7 +381,7 @@ img.git {
 img.sat {
   text-align: right;
   position: relative;
-  margin-right: 109px;
+  margin-right: 10px;
 }
 
 img.html {
@@ -387,7 +393,7 @@ img.html {
   position: relative;
   text-align: center;
   margin: auto;
-  padding-right: -40px;
+  padding-right: -20px;
 }
 
 #myAnimation {
