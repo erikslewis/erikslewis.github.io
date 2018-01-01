@@ -387,7 +387,7 @@ img.html {
   position: relative;
   text-align: center;
   margin: auto;
-  padding-right: 60px;
+  padding-right: -40px;
 }
 
 #myAnimation {
