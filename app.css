@@ -584,7 +584,7 @@ img.hire {
 
 .price .header {
     background-color: #111;
-    color: white;
+    color: black;
     font-size: 25px;
 }
 
@@ -602,7 +602,7 @@ img.hire {
 .button {
     background-color: #4CAF50;
     border: none;
-    color: white;
+    color: black;
     padding: 10px 25px;
     text-align: center;
     text-decoration: none;
