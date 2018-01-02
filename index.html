@@ -1,6 +1,7 @@
 <html>
 
 <head>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-111789205-1"></script>
   <meta name="viewport" content="width=470, maximum-scale=1, user-scalable=yes,">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css" media="screen,projection" />
@@ -10,10 +11,14 @@
   <script src="app.js"></script>
   <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script type="text/javascript" src="materialize/js/materialize.min.js"></script>
+
+
+
+
 </head>
 
 <body>
-  <ul id="slide-out" class="side-nav">
+  <ul id="slide-out" class="side-nav" >
     <li>
       <div class="userView">
         <div class="background">
@@ -273,4 +278,11 @@ $( document ).ready(function() {
 
   });
 
+</script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-111789205-1');
 </script>

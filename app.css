@@ -557,7 +557,7 @@ img.logo {
 
 img.hire {
   width: 80%;
-  height: 70%;
+  height: 90%;
 }
 * {
     box-sizing: border-box;
@@ -613,4 +613,12 @@ img.hire {
     .columns {
         width: 100%;
     }
+}
+ .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    color: red;
 }
