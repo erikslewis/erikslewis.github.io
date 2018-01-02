@@ -585,7 +585,7 @@ img.hire {
 .price .header {
     background-color: #111;
     color: black;
-    font-size: 25px;
+    font-size: 35px;
 }
 
 .price li {
@@ -606,7 +606,7 @@ img.hire {
     padding: 10px 25px;
     text-align: center;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 22px;
 }
 
 @media only screen and (max-width: 600px) {
