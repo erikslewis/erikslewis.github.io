@@ -7228,8 +7228,9 @@ input[type=range]:focus::-ms-fill-upper {
 }
 .side-nav .userView > a {
   height: auto;
-  padding: 0;
-    background-color: yellow;
+  padding: 0px;
+    background-color: #00ff41;
+    border-radius: 1%;
 }
 
 .side-nav .userView > a:hover {
@@ -7265,6 +7266,7 @@ input[type=range]:focus::-ms-fill-upper {
 .side-nav .userView .email {
   font-size: 24px;
   line-height: 26px;
+  background-color: black;
 }
 .side-nav .userView .name {
   margin-top: 16px;
