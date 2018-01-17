@@ -10,6 +10,38 @@
   <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script type="text/javascript" src="materialize/js/materialize.min.js"></script>
 </head>
+<script>
+$( document ).ready(function() {
+
+  // Initialize collapse button
+  $(".button-collapse").sideNav();
+  // Initialize collapsible (uncomment the line below if you use the dropdown variation)
+  $('.collapsible').collapsible();
+
+  $('.button-collapse').sideNav({
+     menuWidth: 480, // Default is 300
+     edge: 'left', // Choose the horizontal origin
+     closeOnClick: true, // Closes side-nav on <a> clicks, useful for Angular/Meteor
+     draggable: true // Choose whether you can drag to open on touch screens
+   }
+ );
+
+ $('.button-collapse').sideNav('show');
+  // Hide sideNav
+  $('.button-collapse').sideNav('hide');
+  // Destroy sideNav
+
+
+  });
+
+</script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-111789205-1');
+</script>
 <body>
   <ul id="slide-out" class="side-nav" >
     <li>
@@ -99,7 +131,7 @@
     <li>Mobile Responsive</li>
     <li>Upgraded features including form, coupons, reviews, slideshows and more</li>
     <li>DOMAIN & HOSTING</li>
-    <li class="grey"><a href="#" class="button">Sign Up</a></li>
+    <li class="grey"><a href="#Contact" class="button">Sign Up</a></li>
   </ul>
 </div>
 
@@ -112,7 +144,7 @@
     <li>Mobile responsive</li>
     <li>Upgraded features including form, coupons, reviews, slideshows and more</li>
     <li>DOMAIN & HOSTING</li>
-    <li class="grey"><a href="#" class="button">Sign Up</a></li>
+    <li class="grey"><a href="#Contact" class="button">Sign Up</a></li>
   </ul>
 </div>
 
@@ -125,22 +157,24 @@
     <li>Mobile responsive</li>
     <li>Weekly or Monthly updates for your site</li>
     <li>DOMAIN & HOSTING</li>
-    <li class="grey"><a href="#" class="button">Sign Up</a></li>
+    <li class="grey"><a href="#Contact" class="button">Sign Up</a></li>
   </ul>
 </div>
 <br><br><br><br><br><br><br><br>
 </div>
-      <div id="Resume" class="tabcontent">
-      <h3 class="animated rollIn">Resume</h3><br>
-      <a href="https://resume.creddle.io/resume/c32s35c8got"><img class="animated rollIn" src="images/resume-icon-png-5.png"  ></a>
-      </div>
-          <div id="Skills" class="tabcontent">
-          <div class="skills">
-          <div class="dropdown">
-          <div class="animated infinite pulse">
-           <button class="dropbtn">Technology</button>
-           </div>
-           <div class="dropdown-content5">
+<div id="Resume" class="tabcontent">
+<h3 class="animated rollIn">Resume</h3><br>
+<a href="https://resume.creddle.io/resume/c32s35c8got"><img class="animated rollIn" src="images/resume-icon-png-5.png"  ></a>
+</div>
+<br><br>
+<div id="Skills" class="tabcontent">
+<div class="skills">
+<div class="dropdown">
+<div class="animated infinite pulse">
+<button class="dropbtn">Technology</button>
+</div>
+<br><br>
+<div class="dropdown-content5">
 <a><img class="git" src="images/React-JS.sh.png"></a>
 <a><img class="html" src="images/HTML5_Logo_gray-225.png"></a>
 <a><img class="git" src="images/javascript-logo.png"></a>
@@ -231,47 +265,15 @@
           <img class="Fly2" src='images/aball.gif'></div>
           </div>
           </div><br><br><br><br><br><br><br><br><br><br>
-          <a href="https://www.linkedin.com/in/erik-shepard-lewis">
-                <img  class="img2" src="images/097145-3d-glossy-blue-orb-icon-social-media-logos-linkedin-logo-square2.png" alt="Linked-In"></a>
-              <a href="https://www.codecademy.com/methodSlayer60817">
-                      <img class="img2" src="images/codecademy.png"></a>
-                    <a href="https://github.com/erikslewis">
-                            <img class="github" src="images/Github-icon.png"></a>
-                            <a href="https://www.codewars.com/users/DeadShotE">
-                                    <img class="war" src="images/newist.jpeg"></a><br>
-                                      <img class="logo" src="images/15910186_10207444276817050_233251890_n.jpg">
+  <a href="https://www.linkedin.com/in/erik-shepard-lewis">
+  <img  class="img2" src="images/097145-3d-glossy-blue-orb-icon-social-media-logos-linkedin-logo-square2.png" alt="Linked-In"></a>
+<a href="https://www.codecademy.com/methodSlayer60817">
+  <img class="img2" src="images/codecademy.png"></a>
+  <a href="https://github.com/erikslewis">
+  <img class="github" src="images/Github-icon.png"></a>
+  <a href="https://www.codewars.com/users/DeadShotE">
+  <img class="war" src="images/newist.jpeg"></a><br>
+  <img class="logo" src="images/15910186_10207444276817050_233251890_n.jpg">
 </ul>
     </body>
   </html>
-<script>
-$( document ).ready(function() {
-
-  // Initialize collapse button
-  $(".button-collapse").sideNav();
-  // Initialize collapsible (uncomment the line below if you use the dropdown variation)
-  $('.collapsible').collapsible();
-
-  $('.button-collapse').sideNav({
-     menuWidth: 480, // Default is 300
-     edge: 'left', // Choose the horizontal origin
-     closeOnClick: true, // Closes side-nav on <a> clicks, useful for Angular/Meteor
-     draggable: true // Choose whether you can drag to open on touch screens
-   }
- );
-
- $('.button-collapse').sideNav('show');
-  // Hide sideNav
-  $('.button-collapse').sideNav('hide');
-  // Destroy sideNav
-
-
-  });
-
-</script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-111789205-1');
-</script>
